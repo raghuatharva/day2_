@@ -1,7 +1,8 @@
-name: CI workflow for PUSH event
+name: CI workflow for PUSH event/tags
 on:
   push:
     branches: [main]
+    tags: ["HCLTech"]
 jobs:
   show:
     runs-on: ubuntu-latest
