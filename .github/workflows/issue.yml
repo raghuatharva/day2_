@@ -1,0 +1,10 @@
+name: CI workflow from issues trigger
+on:
+  issues: [opened, edited, closed]
+    
+jobs:
+  show:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: 
+          echo " Hello , hello 123.."
