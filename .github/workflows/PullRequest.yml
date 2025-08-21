@@ -1,0 +1,11 @@
+name: CI workflow for pull request
+on:
+  pull_request:
+    branches: [main]
+    tags: ["HCLTech"]
+jobs:
+  show:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: 
+          echo " Hello , hello 123.."
