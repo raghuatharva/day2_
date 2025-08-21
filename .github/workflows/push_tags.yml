@@ -1,4 +1,4 @@
-name: CI workflow for PUSH event/tags
+name: CI workflow for PUSH event with tags
 on:
   push:
     branches: [main]
