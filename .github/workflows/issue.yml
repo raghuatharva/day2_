@@ -1,6 +1,7 @@
 name: CI workflow from issues trigger
 on:
-  issues: [opened, edited, closed]
+  issues:
+    types: [opened, edited, closed]
     
 jobs:
   show:
