@@ -1,4 +1,4 @@
-name: CI workflow for pull request
+name: CI workflow for PRtypes
 on:
   pull_request:
     branches: [main]
