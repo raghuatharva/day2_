@@ -1,0 +1,10 @@
+name: CI workflow for PUSH event
+on:
+  push:
+    branches: [main]
+jobs:
+  show:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: 
+          echo " Hello , hello world.."
